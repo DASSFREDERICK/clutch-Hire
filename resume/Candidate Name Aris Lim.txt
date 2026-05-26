@@ -1,0 +1,7 @@
+Candidate Name: Aris Lim
+
+Education: Computer Engineering Student
+
+Technical Skills: Node.js, C++, Python, Embedded Systems, ESP32 development, Git, SQL.
+
+Experience: Built an IoT smart automation system combining backend hardware-software pipelines. Designed REST APIs using Node.js.
