@@ -1,33 +1,33 @@
-# 🚀 ClutchHire AI — Intelligent Recruiter DeepSystem
+# ClutchHire AI — Intelligent Recruiter DeepSystem
 
 ClutchHire AI is an enterprise-grade, multi-agent automated recruitment screening engine. Built on top of a lightning-fast asynchronous backend and an intuitive frontend dashboard interface, the platform cross-evaluates candidate resumes against job descriptions using advanced LLM reasoning capabilities to eliminate manual talent assessment bottlenecks.
 
 ---
 
-## 🧠 Advanced Multi-Agent Architecture
+## Advanced Multi-Agent Architecture
 
 The core pipeline operates as a sequential matrix processing loop powered by **DeepSeek-V3** via the Chutes network to provide realistic, deeply analytical evaluation tracks:
 
-1. **Agent 1: The HR Parser** ⚡  
+1. Agent 1: The HR Parser 
    Ingests raw text boundaries from job descriptions and candidate file streams (supporting native text and multi-page PDFs via PyMuPDF). It sanitizes formatting and isolates core parameters like technical stacks, years of experience, and primary responsibilities.
-2. **Agent 2: Deep Matrix Scorer** 📊  
+2. Agent 2: Deep Matrix Scorer  
    Cross-references parsed profiles against requirements across 5 strict weighted categories: Technical Skills (30%), Experience Level (25%), Domain Match (20%), Responsibilities Alignment (15%), and Education (10%). It computes an exact matching score out of 100 and maps relevant technology tags.
-3. **Agent 3: Executive Explainer** 💎  
+3. Agent 3: Executive Explainer 
    Generates professional, objective, human-grade recruitment narrative summaries. It highlights the candidate's absolute strongest engineering asset alongside any key structural stack optimization gaps.
 
 ---
 
 ## 🛠️ Technology Stack
 
-* **Backend Framework:** FastAPI (Python)
-* **Interactive UI:** Streamlit
-* **AI Core Engine:** DeepSeek-V3-TEE / DeepSeek-V3 (Orchestrated via Chutes OpenAI Client)
-* **Data Validations:** Pydantic v2
-* **PDF Extraction Engine:** PyMuPDF (`fitz`)
+* Backend Framework: FastAPI (Python)
+* Interactive UI: Streamlit
+* AI Core Engine: DeepSeek-V3-TEE / DeepSeek-V3 (Orchestrated via Chutes OpenAI Client)
+* Data Validations: Pydantic v2
+* PDF Extraction Engine: PyMuPDF (`fitz`)
 
 ---
 
-## 📦 Project Directory Layout
+## Project Directory Layout
 
 ```text
 clutch-Hire/
@@ -40,7 +40,7 @@ clutch-Hire/
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🚀 Step-by-Step Installation & Execution Guide
+ Step-by-Step Installation & Execution Guide
 Follow these exact steps to clone, configure, and execute the entire ClutchHire platform locally on your machine.
 
 Step 1: Clone the Repository
@@ -98,7 +98,7 @@ Bash
 python -m streamlit run app.py
 Your Streamlit application client page interface will initialize automatically at http://localhost:8501.
 
-💡 Usage Framework
+ Usage Framework
 Open your browser and navigate to the Streamlit portal: http://localhost:8501.
 
 Input or paste your target job requirements schema directly into the designated Job Description text box block.
